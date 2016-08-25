@@ -1,34 +1,34 @@
 {
   "basics": {
-    "name": "Molly Maluhia",
+    "name": "Daniel Koo",
     "label": "Student",
     "picture": "https://techfolios.github.io/template/images/molly.png",
-    "email": "molly@hawaii.edu",
-    "phone": "808-333-4444",
-    "website": "https://mmaluhia.github.io",
+    "email": "danieldk@hawaii.edu",
+    "phone": "808-627-5618",
+    "website": "https://dankoo.github.io",
     "summary": "I am studying for a B.S. in Computer Science in the Department of Information and Computer Sciences at the University of Hawaii. I expect to graduate in Spring, 2018.",
     "location": {
-      "address": "",
-      "postalCode": "96822",
-      "city": "Honolulu",
+      "address": "46-283 Kahuhipa St. #C607",
+      "postalCode": "96744",
+      "city": "Kaneohe",
       "countryCode": "USA",
       "region": "Hawaii"
     },
     "profiles": [
       {
         "network": "github",
-        "username": "mmaluhia",
-        "url": "http://github.com/changeme"
+        "username": "dankoo",
+        "url": "http://github.com/dankoo"
       },
       {
         "network": "linkedin",
-        "username": "mollymaluhia",
-        "url": "http://linkedin.com/in/changeme"
+        "username": "dankoo",
+        "url": "http://linkedin.com/in/dankoo"
       },
       {
         "network": "twitter",
-        "username": "mollymal",
-        "url": "http://twitter.com/changeme"
+        "username": "CptKoo",
+        "url": "http://twitter.com/CptKoo"
       },
       {
         "network": "instagram",
