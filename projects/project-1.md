@@ -12,12 +12,12 @@ labels:
 summary: My team developed a robotic mouse that won first place in the 2015 UH Micromouse competition.
 ---
 
-<div class="ui small rounded images">//
-  <img class="ui image" src="../images/micromouse-robot.png">//
-  <img class="ui image" src="../images/micromouse-robot-2.jpg">//
-  <img class="ui image" src="../images/micromouse.jpg">//
-  <img class="ui image" src="../images/micromouse-circuit.png">//
-</div>//
+/*<div class="ui small rounded images">//
+  <img class="ui image" src="../images/micromouse-robot.png">
+  <img class="ui image" src="../images/micromouse-robot-2.jpg">
+  <img class="ui image" src="../images/micromouse.jpg">
+  <img class="ui image" src="../images/micromouse-circuit.png">
+</div>*/
 
 descroption***
 
