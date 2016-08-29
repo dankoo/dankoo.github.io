@@ -39,7 +39,7 @@
       ]
     },
     {
-      "name": "Technol",
+      "name": "Security",
       "keywords": [
       ]
     }
@@ -62,7 +62,6 @@
         "MacOS",
         "Ubuntu",
         "Git/GitHub",
-        "Windows XP/7/10"
       ]
     }
   ],
@@ -139,10 +138,10 @@
   ],
   "awards": [
     {
-      "title": "",
-      "date": "",
-      "awarder": "",
-      "summary": ""
+      "title": ,
+      "date": ,
+      "awarder": ,
+      "summary": 
     }
   ],
   "references": [
