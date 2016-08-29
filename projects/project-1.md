@@ -1,9 +1,9 @@
 ---
 layout: project
 type: project
-image: "https://dankoo.github.io/images/bank.jpeg"
+image: images/bank.jpeg
 title: Bank Database
-permalink: projects/
+permalink: projects/bankdatabase
 date: 2015
 labels:
   - C++
