@@ -2,7 +2,7 @@
   "basics": {
     "name": "Daniel Koo",
     "label": "Student",
-    "picture": "https://techfolios.github.io/template/images/daniel.jpg",
+    "picture": "https://dankoo.github.io/template/images/daniel.jpg",
     "email": "danieldk@hawaii.edu",
     "phone": "808-856-0981",
     "website": "https://dankoo.github.io",
@@ -29,17 +29,17 @@
   },
   "interests": [
     {
-      "name": "",
+      "name": "Software Engineering/Design",
       "keywords": [
       ]
     },
     {
-      "name": "",
+      "name": "Mobile Apps",
       "keywords": [
       ]
     },
     {
-      "name": "",
+      "name": "Technol",
       "keywords": [
       ]
     }
