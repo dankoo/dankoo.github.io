@@ -7,7 +7,7 @@
 
 // Customize the background color
 body {
-  background-color: green;
+  background-color: linear-gradient(to bottom right, green, whitesmoke);
 }
 
 // Customize the menubar color
@@ -17,6 +17,6 @@ body {
 
 // Customize the home page icon colors
 .icon-color {
-  color: red;
+  color: darken(lightgreen, 20%);
 }
 
