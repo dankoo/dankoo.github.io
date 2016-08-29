@@ -1,25 +1,15 @@
 ---
 layout: project
 type: project
-image: images/micromouse.jpg
-title: Micromouse
-permalink: projects/micromouse
+image: images/bank.jpeg
+title: Bank Database
+permalink: projects/
 date: 2015
 labels:
-  - Robotics
-  - Arduino
   - C++
-summary: My team developed a robotic mouse that won first place in the 2015 UH Micromouse competition.
+summary: I created a Bank Database using C++, takes in your name, account number, address, and year of birth and then sorts them according to your account number. 
 ---
 
-/*<div class="ui small rounded images">//
-  <img class="ui image" src="../images/micromouse-robot.png">
-  <img class="ui image" src="../images/micromouse-robot-2.jpg">
-  <img class="ui image" src="../images/micromouse.jpg">
-  <img class="ui image" src="../images/micromouse-circuit.png">
-</div>*/
-
-descroption***
 
 
 
