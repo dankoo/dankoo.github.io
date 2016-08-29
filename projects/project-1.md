@@ -1,7 +1,7 @@
 ---
 layout: project
 type: project
-image: images/bank.jpeg
+image: "https://dankoo.github.io/images/bank.jpeg"
 title: Bank Database
 permalink: projects/
 date: 2015
