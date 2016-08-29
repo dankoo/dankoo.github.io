@@ -123,31 +123,5 @@
         "Assisted students with questions about the campus and assisted faculty with technical and practical tasks"
       ]
     }
-  ],
-  "volunteer": [
-    {
-      "organization": "",
-      "website": "",
-      "position": "",
-      "startDate": "",
-      "endDate": "",
-      "summary": "",
-      "highlights": [
-      ]
-    }
-  ],
-  "awards": [
-    {
-      "title":"" ,
-      "date": "",
-      "awarder": "",
-      "summary":"" 
-    }
-  ],
-  "references": [
-    {
-      "name": "Available upon request",
-      "reference": ""
-    }
   ]
 }
