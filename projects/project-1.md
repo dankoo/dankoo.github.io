@@ -1,6 +1,7 @@
 ---
 layout: project
 type: project
+published: true
 image: images/bank.jpeg
 title: Bank Database
 permalink: projects/bankdatabase
