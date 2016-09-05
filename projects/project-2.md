@@ -2,7 +2,7 @@
 layout: project
 type: project
 published: true
-image: https://lh3.ggpht.com/BnwplGa64eYvmoOMSSuK26UOyQXuPrcv09LKUbG_CsPGI2e4mX7MEbL5O46tqiUgotQ=w300-rw
+image: image/pong.png
 title: Pong
 permalink: projects/pong
 date: 2015
