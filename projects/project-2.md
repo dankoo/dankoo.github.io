@@ -1,25 +1,15 @@
 ---
 layout: project
 type: project
-published: false
-image: images/vacay-square.png
-title: Vacay
-permalink: projects/vacay
+published: true
+image: https://lh3.ggpht.com/BnwplGa64eYvmoOMSSuK26UOyQXuPrcv09LKUbG_CsPGI2e4mX7MEbL5O46tqiUgotQ=w300-rw
+title: Pong
+permalink: projects/pong
 date: 2015
 labels:
-  - Javascript
-  - Meteor
-  - MongoDB
-  - GitHub
-summary: A responsive web application for travel planning that my team developed in ICS 415.
+  - Java
+  - Pong
+summary: The first game we've made in 111.
 ---
 
-<img class="ui medium right floated rounded image" src="../images/vacay-home-page.png">
-
-Vacay is a web application that I helped create as a team project in ICS 415, Spring 2015. The project helped me learn how to design and implement a responsive web site.
-
-Vacay is implemented using [Meteor](http://meteor.com), a JavaScript application platform. Within two weeks, we created a website that implements several types of reservations including flights, hotels, and car rentals.
-
-In this project I gained experience with full-stack web application design and associated technologies, including [MongoDB](http://mongodb.com) for database storage, the [Twitter Bootstrap](http://getbootstrap.com/) CSS Framework for the user interface, and Javascript for both client and server-side programming. 
- 
-Source: <a href="https://github.com/theVacay/vacay"><i class="large github icon"></i>theVacay/vacay</a>
+I found that this project in 111, really helped me grasp what it was like to make a game with limited memory and computing power. This project helped me visualize what it is like to create a simple game, and understanding all the errors that were possible for a game to be created. Being that this was my first game that I've created, I felt that the experiences of researching and experimenting with coding helped me through the process of starting coding projects for my future assigments.
