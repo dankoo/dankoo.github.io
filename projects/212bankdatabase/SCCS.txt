@@ -1,0 +1,19 @@
+Script started on Tue Mar 15 23:52:44 2016
+uhx01% get   ./get re   release
+ERROR [SCCS/s.functions.c]: writable `functions.c' exists (ge4)
+1.1
+new delta 1.2
+9 lines
+ERROR [SCCS/s.proj1.c]: writable `proj1.c' exists (ge4)
+1.1
+new delta 1.2
+8 lines
+ERROR [SCCS/s.Makefile]: writable `Makefile' exists (ge4)
+uhx01% ls
+,functions.c  functions.o   proj1         proj1.txt     SCCS
+functions.c   getrelease    ,proj1.c      ,record.h     SCCS.txt
+,functions.h  ,Makefile     proj1.c       record.h
+functions.h   Makefile      proj1.o       records.txt
+uhx01% exit
+uhx01% 
+script done on Tue Mar 15 23:53:00 2016

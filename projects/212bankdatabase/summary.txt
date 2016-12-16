@@ -1,0 +1,3 @@
+Overall I felt that it was quite buggy, but given the context of this 
+project, I felt that my functions work properly. I could have improved on 
+giving error messages, and could have debugged my project a bit more.

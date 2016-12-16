@@ -10,6 +10,7 @@ labels:
   - Swimming
 summary: An experience of swimming changed my life.
 ---
+<img class="ui image" src="../images/swimming.png">
 
 Through my years at Kalani High school, I was going to experience some that would change my life. I never thought that I would be able to experience an environment where I’d be consistently training with a group of elite athletes.  Behold I was finally on the Kalani swim team, with every day of training I was one step closer to becoming a swimmer.  Through every swimming meet my time would steadily increase, and my form would be better.  By the end of my experience I was only able to achieve a certain height and I’d only get better if I kept swimming.  
 

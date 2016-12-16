@@ -1,0 +1,1565 @@
+Script started on Tue Mar 15 23:26:55 2016
+uhx01% ls
+functions.c  Makefile     proj1.txt    records.txt
+functions.h  proj1.c      record.h
+uhx01% make all
+cc -c -strict proj1.c
+cc -c -strict functions.c
+cc proj1.o functions.o -o proj1
+uhx01% ls
+functions.c  functions.o  proj1        proj1.o      record.h
+functions.h  Makefile     proj1.c      proj1.txt    records.txt
+uhx01% ./proj1 debug
+
+
+DEBUGMODE
+**Read File**
+Arguments passed: 
+ffbffbbc
+records.txt
+File is empty...
+
+
+Welcome to your Bank Database!
+
+1) Add a new record
+2) Modify a record
+3) Print a record
+4) Print all records
+5) Delete a record
+6) Quit
+
+1
+Enter your 6 digit Account Number:
+1
+Enter your Name:
+daniel
+Enter your Address:
+When finished, press enter twice
+123
+
+Enter your Year of Birth:
+1993
+
+
+DEBUGMODE
+**Add Record**0
+1
+daniel
+
+123
+
+1993
+ Arguments passed: 
+Welcome to your Bank Database!
+
+1) Add a new record
+2) Modify a record
+3) Print a record
+4) Print all records
+5) Delete a record
+6) Quit
+
+2
+Enter Account Number of the record to modify:
+1
+Enter new Address:
+When finished, press enter twice
+blah
+
+
+
+DEBUGMODE
+**Modify Record**
+Arguments passed: 
+227e0
+1
+
+blah
+
+
+Records modified
+
+Welcome to your Bank Database!
+
+1) Add a new record
+2) Modify a record
+3) Print a record
+4) Print all records
+5) Delete a record
+6) Quit
+
+4
+
+
+DEBUGMODE
+**Print All Records**
+Arguments passed: 
+227e0
+
+Record 1:
+Account Number: 1
+Name: daniel
+Address: 
+blah
+
+Year of Birth: 1993
+
+Welcome to your Bank Database!
+
+1) Add a new record
+2) Modify a record
+3) Print a record
+4) Print all records
+5) Delete a record
+6) Quit
+
+3
+Enter Account Number of the record to print:
+1
+
+
+DEBUGMODE
+**Print Record**
+Arguments passed: 
+227e0
+1
+Record 1:
+Account Number: 1
+Name: daniel
+Address: 
+blah
+
+Year of Birth: 1993
+
+Welcome to your Bank Database!
+
+1) Add a new record
+2) Modify a record
+3) Print a record
+4) Print all records
+5) Delete a record
+6) Quit
+
+5
+Enter Account Number of record to delete:
+1
+**Delete Record**
+
+DEBUGMODE
+ Name: 1
+
+Arguments passed:
+ffbffbbc
+1
+Record Deleted...
+
+
+Welcome to your Bank Database!
+
+1) Add a new record
+2) Modify a record
+3) Print a record
+4) Print all records
+5) Delete a record
+6) Quit
+
+4
+
+
+DEBUGMODE
+**Print All Records**
+Arguments passed: 
+0
+No Records to Print
+
+
+Welcome to your Bank Database!
+
+1) Add a new record
+2) Modify a record
+3) Print a record
+4) Print all records
+5) Delete a record
+6) Quit
+
+6
+
+
+DEBUGMODE
+**Write File**
+Arguments passed: 
+0
+records.txt
+File is empty
+
+
+DEBUGMODE
+**Clean Up**
+Arguments passed: 
+ffbffbbc
+Shoots!~
+
+uhx01% ./proj1
+File is empty...
+
+
+Welcome to your Bank Database!
+
+1) Add a new record
+2) Modify a record
+3) Print a record
+4) Print all records
+5) Delete a record
+6) Quit
+
+1
+Enter your 6 digit Account Number:
+100001
+Enter your Name:
+Daniel
+Enter your Address:
+When finished, press enter twice
+Honolulu
+
+Enter your Year of Birth:
+1993
+
+Welcome to your Bank Database!
+
+1) Add a new record
+2) Modify a record
+3) Print a record
+4) Print all records
+5) Delete a record
+6) Quit
+
+4
+
+Record 1:
+Account Number: 100001
+Name: Daniel
+Address: 
+Honolulu
+
+Year of Birth: 1993
+
+Welcome to your Bank Database!
+
+1) Add a new record
+2) Modify a record
+3) Print a record
+4) Print all records
+5) Delete a record
+6) Quit
+
+1
+Enter your 6 digit Account Number:
+Ku  100009
+Enter your Name:
+Kuri
+Enter your Address:
+When finished, press enter twice
+Hol b nolulu
+Hi
+
+Enter your Year of Birth:
+1990
+
+Welcome to your Bank Database!
+
+1) Add a new record
+2) Modify a record
+3) Print a record
+4) Print all records
+5) Delete a record
+6) Quit
+
+4
+
+Record 1:
+Account Number: 100001
+Name: Daniel
+Address: 
+Honolulu
+
+Year of Birth: 1993
+
+Record 2:
+Account Number: 100009
+Name: Kuri
+Address: 
+Honolulu
+Hi
+
+Year of Birth: 1990
+
+Welcome to your Bank Database!
+
+1) Add a new record
+2) Modify a record
+3) Print a record
+4) Print all records
+5) Delete a record
+6) Quit
+
+3
+Enter Account Number of the record to print:
+100001
+Record 1:
+Account Number: 100001
+Name: Daniel
+Address: 
+Honolulu
+
+Year of Birth: 1993
+
+Welcome to your Bank Database!
+
+1) Add a new record
+2) Modify a record
+3) Print a record
+4) Print all records
+5) Delete a record
+6) Quit
+
+1
+Enter your 6 digit Account Number:
+100004 5
+Enter your Name:
+Ravi
+Enter your Address:
+When finished, press enter twice
+Heaven
+
+Enter your Year of Birth:
+100
+
+Welcome to your Bank Database!
+
+1) Add a new record
+2) Modify a record
+3) Print a record
+4) Print all records
+5) Delete a record
+6) Quit
+
+4
+
+Record 1:
+Account Number: 100001
+Name: Daniel
+Address: 
+Honolulu
+
+Year of Birth: 1993
+
+Record 2:
+Account Number: 100005
+Name: Ravi
+Address: 
+Heaven
+
+Year of Birth: 100
+
+Record 3:
+Account Number: 100009
+Name: Kuri
+Address: 
+Honolulu
+Hi
+
+Year of Birth: 1990
+
+Welcome to your Bank Database!
+
+1) Add a new record
+2) Modify a record
+3) Print a record
+4) Print all records
+5) Delete a record
+6) Quit
+
+1
+Enter your 6 digit Account Number:
+100001
+Enter your Name:
+Bob
+Enter your Address:
+When finished, press enter twice
+Hell
+
+Enter your Year of Birth:
+1800
+
+Welcome to your Bank Database!
+
+1) Add a new record
+2) Modify a record
+3) Print a record
+4) Print all records
+5) Delete a record
+6) Quit
+
+5
+Enter Account Number of record to delete:
+100000
+Record Deleted...
+
+
+Welcome to your Bank Database!
+
+1) Add a new record
+2) Modify a record
+3) Print a record
+4) Print all records
+5) Delete a record
+6) Quit
+
+5
+Enter Account Number of record to delete:
+100000
+Record Deleted...
+
+
+Welcome to your Bank Database!
+
+1) Add a new record
+2) Modify a record
+3) Print a record
+4) Print all records
+5) Delete a record
+6) Quit
+
+4
+
+Record 1:
+Account Number: 100001
+Name: Daniel
+Address: 
+Honolulu
+
+Year of Birth: 1993
+
+Record 2:
+Account Number: 100001
+Name: Bob
+Address: 
+Hell
+
+Year of Birth: 1800
+
+Record 3:
+Account Number: 100005
+Name: Ravi
+Address: 
+Heaven
+
+Year of Birth: 100
+
+Record 4:
+Account Number: 100009
+Name: Kuri
+Address: 
+Honolulu
+Hi
+
+Year of Birth: 1990
+
+Welcome to your Bank Database!
+
+1) Add a new record
+2) Modify a record
+3) Print a record
+4) Print all records
+5) Delete a record
+6) Quit
+
+3
+Enter Account Number of the record to print:
+100001
+Record 1:
+Account Number: 100001
+Name: Daniel
+Address: 
+Honolulu
+
+Year of Birth: 1993
+Record 2:
+Account Number: 100001
+Name: Bob
+Address: 
+Hell
+
+Year of Birth: 1800
+
+Welcome to your Bank Database!
+
+1) Add a new record
+2) Modify a record
+3) Print a record
+4) Print all records
+5) Delete a record
+6) Quit
+
+2
+Enter Account Number of the record to modify:
+100001
+Enter new Address:
+When finished, press enter twice
+Heaven
+
+
+Records modified
+
+Welcome to your Bank Database!
+
+1) Add a new record
+2) Modify a record
+3) Print a record
+4) Print all records
+5) Delete a record
+6) Quit
+
+4
+
+Record 1:
+Account Number: 100001
+Name: Daniel
+Address: 
+Honolulu
+
+Year of Birth: 1993
+
+Record 2:
+Account Number: 100001
+Name: Bob
+Address: 
+Heaven
+
+Year of Birth: 1800
+
+Record 3:
+Account Number: 100005
+Name: Ravi
+Address: 
+Heaven
+
+Year of Birth: 100
+
+Record 4:
+Account Number: 100009
+Name: Kuri
+Address: 
+Honolulu
+Hi
+
+Year of Birth: 1990
+
+Welcome to your Bank Database!
+
+1) Add a new record
+2) Modify a record
+3) Print a record
+4) Print all records
+5) Delete a record
+6) Quit
+
+1
+Enter your 6 digit Account Number:
+100009
+Enter your Name:
+Heaven
+Enter your Address:
+When finished, press enter twice
+Heaven
+
+Enter your Year of Birth:
+1900
+
+Welcome to your Bank Database!
+
+1) Add a new record
+2) Modify a record
+3) Print a record
+4) Print all records
+5) Delete a record
+6) Quit
+
+4
+
+Record 1:
+Account Number: 100001
+Name: Daniel
+Address: 
+Honolulu
+
+Year of Birth: 1993
+
+Record 2:
+Account Number: 100001
+Name: Bob
+Address: 
+Heaven
+
+Year of Birth: 1800
+
+Record 3:
+Account Number: 100005
+Name: Ravi
+Address: 
+Heaven
+
+Year of Birth: 100
+
+Record 4:
+Account Number: 100009
+Name: Kuri
+Address: 
+Honolulu
+Hi
+
+Year of Birth: 1990
+
+Record 5:
+Account Number: 100009
+Name: Heaven
+Address: 
+Heaven
+
+Year of Birth: 1900
+
+Welcome to your Bank Database!
+
+1) Add a new record
+2) Modify a record
+3) Print a record
+4) Print all records
+5) Delete a record
+6) Quit
+
+5
+Enter Account Number of record to delete:
+100009
+Record Deleted...
+
+
+Welcome to your Bank Database!
+
+1) Add a new record
+2) Modify a record
+3) Print a record
+4) Print all records
+5) Delete a record
+6) Quit
+
+4
+
+Record 1:
+Account Number: 100001
+Name: Daniel
+Address: 
+Honolulu
+
+Year of Birth: 1993
+
+Record 2:
+Account Number: 100001
+Name: Bob
+Address: 
+Heaven
+
+Year of Birth: 1800
+
+Record 3:
+Account Number: 100005
+Name: Ravi
+Address: 
+Heaven
+
+Year of Birth: 100
+
+Welcome to your Bank Database!
+
+1) Add a new record
+2) Modify a record
+3) Print a record
+4) Print all records
+5) Delete a record
+6) Quit
+
+1
+Enter your 6 digit Account Number:
+100000
+Enter your Name:
+ROB
+Enter your Address:
+When finished, press enter twice
+Middle earth
+
+Enter your Year of Birth:
+1400
+
+Welcome to your Bank Database!
+
+1) Add a new record
+2) Modify a record
+3) Print a record
+4) Print all records
+5) Delete a record
+6) Quit
+
+4
+
+Record 1:
+Account Number: 100000
+Name: ROB
+Address: 
+Middle earth
+
+Year of Birth: 1400
+
+Record 2:
+Account Number: 100001
+Name: Daniel
+Address: 
+Honolulu
+
+Year of Birth: 1993
+
+Record 3:
+Account Number: 100001
+Name: Bob
+Address: 
+Heaven
+
+Year of Birth: 1800
+
+Record 4:
+Account Number: 100005
+Name: Ravi
+Address: 
+Heaven
+
+Year of Birth: 100
+
+Welcome to your Bank Database!
+
+1) Add a new record
+2) Modify a record
+3) Print a record
+4) Print all records
+5) Delete a record
+6) Quit
+
+3
+Enter Account Number of the record to print:
+100001
+
+Record does not exist
+
+
+Welcome to your Bank Database!
+
+1) Add a new record
+2) Modify a record
+3) Print a record
+4) Print all records
+5) Delete a record
+6) Quit
+
+6
+Shoots!~
+
+uhx01% ./proj1
+Reading Complete...
+
+
+Welcome to your Bank Database!
+
+1) Add a new record
+2) Modify a record
+3) Print a record
+4) Print all records
+5) Delete a record
+6) Quit
+
+4
+
+Record 1:
+Account Number: 100000
+Name: ROB
+
+Address: Middle earth
+
+Year of Birth: 1400
+
+Record 2:
+Account Number: 100001
+Name: Daniel
+
+Address: Honolulu
+
+Year of Birth: 1993
+
+Record 3:
+Account Number: 100001
+Name: Bob
+
+Address: Heaven
+
+Year of Birth: 1800
+
+Record 4:
+Account Number: 100005
+Name: Ravi
+
+Address: Heaven
+
+Year of Birth: 100
+
+Welcome to your Bank Database!
+
+1) Add a new record
+2) Modify a record
+3) Print a record
+4) Print all records
+5) Delete a record
+6) Quit
+
+2
+Enter Account Number of the record to modify:
+100001
+Enter new Address:
+When finished, press enter twice
+heavn en
+
+
+Records modified
+
+Welcome to your Bank Database!
+
+1) Add a new record
+2) Modify a record
+3) Print a record
+4) Print all records
+5) Delete a record
+6) Quit
+
+4
+
+Record 1:
+Account Number: 100000
+Name: ROB
+
+Address: Middle earth
+
+Year of Birth: 1400
+
+Record 2:
+Account Number: 100001
+Name: Daniel
+
+Address: 
+heaven
+
+Year of Birth: 1993
+
+Record 3:
+Account Number: 100001
+Name: Bob
+
+Address: 
+heaven
+
+Year of Birth: 1800
+
+Record 4:
+Account Number: 100005
+Name: Ravi
+
+Address: Heaven
+
+Year of Birth: 100
+
+Welcome to your Bank Database!
+
+1) Add a new record
+2) Modify a record
+3) Print a record
+4) Print all records
+5) Delete a record
+6) Quit
+
+4
+
+Record 1:
+Account Number: 100000
+Name: ROB
+
+Address: Middle earth
+
+Year of Birth: 1400
+
+Record 2:
+Account Number: 100001
+Name: Daniel
+
+Address: 
+heaven
+
+Year of Birth: 1993
+
+Record 3:
+Account Number: 100001
+Name: Bob
+
+Address: 
+heaven
+
+Year of Birth: 1800
+
+Record 4:
+Account Number: 100005
+Name: Ravi
+
+Address: Heaven
+
+Year of Birth: 100
+
+Welcome to your Bank Database!
+
+1) Add a new record
+2) Modify a record
+3) Print a record
+4) Print all records
+5) Delete a record
+6) Quit
+
+1
+Enter your 6 digit Account Number:
+100001
+Enter your Name:
+ANNON
+Enter your Address:
+When finished, press enter twice
+HELL
+
+Enter your Year of Birth:
+0000
+
+Welcome to your Bank Database!
+
+1) Add a new record
+2) Modify a record
+3) Print a record
+4) Print all records
+5) Delete a record
+6) Quit
+
+4
+
+Record 1:
+Account Number: 100000
+Name: ROB
+
+Address: Middle earth
+
+Year of Birth: 1400
+
+Record 2:
+Account Number: 100001
+Name: ANNON
+Address: 
+HELL
+
+Year of Birth: 0
+
+Record 3:
+Account Number: 100001
+Name: Bob
+
+Address: 
+heaven
+
+Year of Birth: 1800
+
+Record 4:
+Account Number: 100005
+Name: Ravi
+
+Address: Heaven
+
+Year of Birth: 100
+
+Welcome to your Bank Database!
+
+1) Add a new record
+2) Modify a record
+3) Print a record
+4) Print all records
+5) Delete a record
+6) Quit
+
+4
+
+Record 1:
+Account Number: 100000
+Name: ROB
+
+Address: Middle earth
+
+Year of Birth: 1400
+
+Record 2:
+Account Number: 100001
+Name: ANNON
+Address: 
+HELL
+
+Year of Birth: 0
+
+Record 3:
+Account Number: 100001
+Name: Bob
+
+Address: 
+heaven
+
+Year of Birth: 1800
+
+Record 4:
+Account Number: 100005
+Name: Ravi
+
+Address: Heaven
+
+Year of Birth: 100
+
+Welcome to your Bank Database!
+
+1) Add a new record
+2) Modify a record
+3) Print a record
+4) Print all records
+5) Delete a record
+6) Quit
+
+10  4
+
+Record 1:
+Account Number: 100000
+Name: ROB
+
+Address: Middle earth
+
+Year of Birth: 1400
+
+Record 2:
+Account Number: 100001
+Name: ANNON
+Address: 
+HELL
+
+Year of Birth: 0
+
+Record 3:
+Account Number: 100001
+Name: Bob
+
+Address: 
+heaven
+
+Year of Birth: 1800
+
+Record 4:
+Account Number: 100005
+Name: Ravi
+
+Address: Heaven
+
+Year of Birth: 100
+
+Welcome to your Bank Database!
+
+1) Add a new record
+2) Modify a record
+3) Print a record
+4) Print all records
+5) Delete a record
+6) Quit
+
+50 
+Enter Account Number of record to delete:
+100001
+Record Deleted...
+
+
+Welcome to your Bank Database!
+
+1) Add a new record
+2) Modify a record
+3) Print a record
+4) Print all records
+5) Delete a record
+6) Quit
+
+4
+
+Record 1:
+Account Number: 100000
+Name: ROB
+
+Address: Middle earth
+
+Year of Birth: 1400
+
+Record 2:
+Account Number: 100005
+Name: Ravi
+
+Address: Heaven
+
+Year of Birth: 100
+
+Welcome to your Bank Database!
+
+1) Add a new record
+2) Modify a record
+3) Print a record
+4) Print all records
+5) Delete a record
+6) Quit
+
+8
+Please enter a number from 1 - 6...
+Welcome to your Bank Database!
+
+1) Add a new record
+2) Modify a record
+3) Print a record
+4) Print all records
+5) Delete a record
+6) Quit
+
+6
+Shoots!~
+
+uhx01% ./por  roj1
+Reading Complete...
+
+
+Welcome to your Bank Database!
+
+1) Add a new record
+2) Modify a record
+3) Print a record
+4) Print all records
+5) Delete a record
+6) Quit
+
+4
+
+Record 1:
+Account Number: 100000
+Name: ROB
+
+Address: Middle earth
+
+Year of Birth: 1400
+
+Record 2:
+Account Number: 100005
+Name: Ravi
+
+Address: Heaven
+
+Year of Birth: 100
+
+Welcome to your Bank Database!
+
+1) Add a new record
+2) Modify a record
+3) Print a record
+4) Print all records
+5) Delete a record
+6) Quit
+
+1
+Enter your 6 digit Account Number:
+100001
+Enter your Name:
+Daniel
+Enter your Address:
+When finished, press enter twice
+Honolulu
+Hi
+Oahy u
+Earth
+
+Enter your Year of Birth:
+1900000000000000
+
+Welcome to your Bank Database!
+
+1) Add a new record
+2) Modify a record
+3) Print a record
+4) Print all records
+5) Delete a record
+6) Quit
+
+4
+
+Record 1:
+Account Number: 100000
+Name: ROB
+
+Address: Middle earth
+
+Year of Birth: 1400
+
+Record 2:
+Account Number: 100001
+Name: Daniel
+Address: 
+Honolulu
+Hi
+Oahu
+Earth
+
+Year of Birth: 957530112
+
+Record 3:
+Account Number: 100005
+Name: Ravi
+
+Address: Heaven
+
+Year of Birth: 100
+
+Welcome to your Bank Database!
+
+1) Add a new record
+2) Modify a record
+3) Print a record
+4) Print all records
+5) Delete a record
+6) Quit
+
+2
+Enter Account Number of the record to modify:
+100001
+Enter new Address:
+When finished, press enter twice
+hell
+
+
+Records modified
+
+Welcome to your Bank Database!
+
+1) Add a new record
+2) Modify a record
+3) Print a record
+4) Print all records
+5) Delete a record
+6) Quit
+
+4
+
+Record 1:
+Account Number: 100000
+Name: ROB
+
+Address: Middle earth
+
+Year of Birth: 1400
+
+Record 2:
+Account Number: 100001
+Name: Daniel
+Address: 
+hell
+
+Year of Birth: 957530112
+
+Record 3:
+Account Number: 100005
+Name: Ravi
+
+Address: Heaven
+
+Year of Birth: 100
+
+Welcome to your Bank Database!
+
+1) Add a new record
+2) Modify a record
+3) Print a record
+4) Print all records
+5) Delete a record
+6) Quit
+
+1
+Enter your 6 digit Account Number:
+1 999999
+Enter your Name:
+Jesus
+Enter your Address:
+When finished, press enter twice
+Heaven
+
+Enter your Year of Birth:
+0
+
+Welcome to your Bank Database!
+
+1) Add a new record
+2) Modify a record
+3) Print a record
+4) Print all records
+5) Delete a record
+6) Quit
+
+4
+
+Record 1:
+Account Number: 100000
+Name: ROB
+
+Address: Middle earth
+
+Year of Birth: 1400
+
+Record 2:
+Account Number: 100001
+Name: Daniel
+Address: 
+hell
+
+Year of Birth: 957530112
+
+Record 3:
+Account Number: 100005
+Name: Ravi
+
+Address: Heaven
+
+Year of Birth: 100
+
+Record 4:
+Account Number: 999999
+Name: Jesus
+Address: 
+Heaven
+
+Year of Birth: 0
+
+Welcome to your Bank Database!
+
+1) Add a new record
+2) Modify a record
+3) Print a record
+4) Print all records
+5) Delete a record
+6) Quit
+
+1
+Enter your 6 digit Account Number:
+100000
+Enter your Name:
+Damn Daniel
+Enter your Address:
+When finished, press enter twice
+Hell
+
+Enter your Year of Birth:
+1234
+
+Welcome to your Bank Database!
+
+1) Add a new record
+2) Modify a record
+3) Print a record
+4) Print all records
+5) Delete a record
+6) Quit
+
+4
+
+Record 1:
+Account Number: 100000
+Name: ROB
+
+Address: Middle earth
+
+Year of Birth: 1400
+
+Record 2:
+Account Number: 100000
+Name: Damn
+Address:  Daniel
+Hell
+
+Year of Birth: 1234
+
+Record 3:
+Account Number: 100001
+Name: Daniel
+Address: 
+hell
+
+Year of Birth: 957530112
+
+Record 4:
+Account Number: 100005
+Name: Ravi
+
+Address: Heaven
+
+Year of Birth: 100
+
+Record 5:
+Account Number: 999999
+Name: Jesus
+Address: 
+Heaven
+
+Year of Birth: 0
+
+Welcome to your Bank Database!
+
+1) Add a new record
+2) Modify a record
+3) Print a record
+4) Print all records
+5) Delete a record
+6) Quit
+
+2
+Enter Account Number of the record to modify:
+100000
+Enter new Address:
+When finished, press enter twice
+Heaven
+
+
+Records modified
+
+Welcome to your Bank Database!
+
+1) Add a new record
+2) Modify a record
+3) Print a record
+4) Print all records
+5) Delete a record
+6) Quit
+
+4
+
+Record 1:
+Account Number: 100000
+Name: ROB
+
+Address: Middle earth
+
+Year of Birth: 1400
+
+Record 2:
+Account Number: 100000
+Name: Damn
+Address: 
+Heaven
+
+Year of Birth: 1234
+
+Record 3:
+Account Number: 100001
+Name: Daniel
+Address: 
+hell
+
+Year of Birth: 957530112
+
+Record 4:
+Account Number: 100005
+Name: Ravi
+
+Address: Heaven
+
+Year of Birth: 100
+
+Record 5:
+Account Number: 999999
+Name: Jesus
+Address: 
+Heaven
+
+Year of Birth: 0
+
+Welcome to your Bank Database!
+
+1) Add a new record
+2) Modify a record
+3) Print a record
+4) Print all records
+5) Delete a record
+6) Quit
+
+5
+Enter Account Number of record to delete:
+100000
+Record Deleted...
+
+
+Welcome to your Bank Database!
+
+1) Add a new record
+2) Modify a record
+3) Print a record
+4) Print all records
+5) Delete a record
+6) Quit
+
+4
+
+Record 1:
+Account Number: 100001
+Name: Daniel
+Address: 
+hell
+
+Year of Birth: 957530112
+
+Record 2:
+Account Number: 100005
+Name: Ravi
+
+Address: Heaven
+
+Year of Birth: 100
+
+Record 3:
+Account Number: 999999
+Name: Jesus
+Address: 
+Heaven
+
+Year of Birth: 0
+
+Welcome to your Bank Database!
+
+1) Add a new record
+2) Modify a record
+3) Print a record
+4) Print all records
+5) Delete a record
+6) Quit
+
+6
+Shoots!~
+
+uhx01% exit
+uhx01% 
+script done on Tue Mar 15 23:37:39 2016

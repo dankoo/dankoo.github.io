@@ -1,0 +1,7 @@
+#!/bin/sh
+
+sccs edit functions.c
+sccs edit functions.h
+sccs edit proj1.c
+sccs edit record.h
+sccs edit Makefile
