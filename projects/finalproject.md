@@ -20,8 +20,6 @@ This was my first time working in a group to produce a web app, and through this
 
 Our team consisted of 4 members, including myself; we created mockup pages for our web application. After deciding on what each member can bring to the table we assigned tasks and began handling issues. We had over a month to complete our web app and consisted of 3 milestones. I was left to create a profile page on which the user can create a profile that consists of their info, classes they are taking (grasshopper), and classes they have took (sensei).
 <img class="ui image" src="../images/profilepage.png">
-I was also left to create the ranking page on which users can see the ranking of which users have the best ratings and how many sessions they have been contributing to.
-<img class="ui image" src="../images/ranking.png">
 
 This project was very time consuming and quite frustrating to get it working right, but through trial and error I was able to better my skills in CSS and I was able to work with and befriend such talented peers. I truly believe that through this project I was able to learn how much work and effort goes into when creating an application and will be of great use for my future projects!
 
