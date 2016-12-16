@@ -24,7 +24,7 @@
         "network": "linkedin",
         "username": "dankoo",
         "url": "http://linkedin.com/in/dankoo"
-      },
+      }
     ]
   },
   "interests": [
@@ -62,7 +62,7 @@
       "keywords": [
         "MacOS",
         "Ubuntu",
-        "Git/GitHub",
+        "Git/GitHub"
       ]
     }
   ],
@@ -123,6 +123,12 @@
       "highlights": [
         "Assisted students with questions about the campus and assisted faculty with technical and practical tasks"
       ]
+    }
+  ],
+  "references": [
+    {
+      "name": "Available upon request",
+      "reference": ""
     }
   ]
 }
