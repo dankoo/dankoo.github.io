@@ -12,7 +12,7 @@ labels:
 summary: Meteor based web application.
 ---
 
-<img class="ui image" src="../images/getgood.png">
+<img class="ui image" src="../images/getgoodhomepage.png">
 
 It was always a goal and dream for me to create an application that would be useful for everyday life.  Always having ideas and project goals, it was a fascination for me to create an application but I just didn’t know where to start or how to even begin such a task. Fortunately there was a class offered at University of Hawaii at Manoa, which taught me the basic foundations and concepts to accomplish such a feat.
 
