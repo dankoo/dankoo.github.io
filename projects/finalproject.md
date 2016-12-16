@@ -25,5 +25,4 @@ I was also left to create the ranking page on which users can see the ranking of
 
 This project was very time consuming and quite frustrating to get it working right, but through trial and error I was able to better my skills in CSS and I was able to work with and befriend such talented peers. I truly believe that through this project I was able to learn how much work and effort goes into when creating an application and will be of great use for my future projects!
 
-Our project can be seen here: https://github.com/get-good/get-good.github.io
-
+Our project can be seen here:  <a href="https://github.com/get-good/get-good.github.io">https://github.com/get-good/get-good.github.io</a>
