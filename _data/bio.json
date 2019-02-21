@@ -4,11 +4,10 @@
     "label": "Student",
     "picture": "https://dankoo.github.io/images/profilepic2.jpg",
     "email": "danieldk@hawaii.edu",
-    "phone": "808-856-0981",
     "website": "https://dankoo.github.io",
-    "summary": "I am studying for a B.S. in Computer Science in the Department of Information and Computer Sciences at the University of Hawaii. I expect to graduate in Spring, 2018.",
+    "summary": "I am studying for a B.S. in Computer Science in the Department of Information and Computer Sciences at the University of Hawaii. I expect to graduate in Fall, 2019.",
     "location": {
-      "address": "46-283 Kahuhipa St. #C607",
+      "address": "Kahuhipa St.",
       "postalCode": "96744",
       "city": "Kaneohe",
       "countryCode": "USA",
@@ -29,19 +28,49 @@
   },
   "interests": [
     {
-      "name": "Software Engineering/Design",
+      "name": "Software Engineering/Designer",
       "keywords": [
+        "java",
+        "javascript",
+        "data structures",
+        "algorithms"
       ]
     },
     {
-      "name": "Mobile Apps",
+      "name": "App Development",
       "keywords": [
-        "Game development"
+        "game development", 
+        "practical Use Apps",
+        "mobile app development",
+        "developing an app",
+        "app programming",
+        "cell phone app development",
+        "programming apps",
+        "developing phone apps"
       ]
     },
     {
-      "name": "Security",
+      "name": "Cyber Security",
       "keywords": [
+        "hacking",
+        "white hat",
+        "grey hat",
+        "black hat",
+        "security",
+        "ddos attack",
+        "cyber crime",
+        "keylog",
+        "phishing"
+      ]
+    },
+    {
+      "name": "Data Science",
+      "keywords": [
+        "python",
+        "data visualization",
+        "big data",
+        "data mining",
+        "machine learning"
       ]
     }
   ],
@@ -50,13 +79,15 @@
       "name": "Languages and Frameworks",
       "level": "",
       "keywords": [
-        "C",
-        "C++",
-        "Java",
-        "Javascript",
-        "CSS",
-        "Html",
-        "Fluent in spoken Korean workable written Korean skills"
+        "c",
+        "c++",
+        "java",
+        "javascript",
+        "assembly"
+        "css",
+        "html",
+        "python",
+        "korean"
       ]
     },
     {
@@ -64,8 +95,8 @@
       "level": "",
       "keywords": [
         "MacOS",
-        "Ubuntu",
-        "Windows XP/Vista/7/10",
+        "Linux (Ubuntu, Kali)",
+        "Windows (XP/Vista/7/10)",
         "Git/GitHub"
       ]
     }
@@ -73,7 +104,7 @@
   "education": [
     {
       "institution": "University of Hawaii at Manoa, Honolulu, HI",
-      "area": "Computer Science (expected Spring, 2018)",
+      "area": "Computer Science (expected Fall, 2019)",
       "studyType": "B.S.",
       "startDate": "2014-09-22",
       "endDate": "Present",
